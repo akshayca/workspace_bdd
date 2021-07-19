@@ -1,4 +1,12 @@
 language: java
 install: true
+
+addons:
+  sonarcloud:
+    organization: "paru"
+    token:
+        secure: "fd81d448e19a2e713ec9d1af3f2cac49b696e630"
+
 script:
-- mvn install
+  - mvn install
+  - sonar-scanner
