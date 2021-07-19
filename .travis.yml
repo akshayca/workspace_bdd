@@ -4,7 +4,7 @@ dist: trusty
 
 addons:
   sonarcloud:
-    organization: paru"
+    organization: "paru"
     token:
       secure: "gye6HPBvbZviNYQGyfz0QWsLNIaumRIi/Oz7NqnIbEJpYV4HT7yrk4azqCI7pZIcQhyanxtI5oN0cUfLMeX7UXXAn9JhgXhzJqTv7P1eOLHXLeU4CvA6pQ12w7WYPbiEsR4z5Q38bWLjNt6LyUwowepp673pDrRTOAXZFZAIHiBbQPawbBKrCUjkmVCgWVrHP6Ml3dL9vKOAIqNicak+R+EPyoifdVjWaC5B7ltu+Gmo+ZKIsETwd9+uEYGTyg19qjR145cqHVG/qwgTThuR1aq0Cyxi8FkAA8cVSBdPVa/e3wiFblphs8gipBcrZkg4C9UFiRcJkjtFeraEguIL/KcxF6MHFwe8VPCGzBBToD75gZ2PDXFw7hILYkqbprI92RWFddZoZpDAh1zvnTshvQ5xVKMBpSbNgVCBvyDho0lbdEFTJKbRGwRbjxAPTDSrryAu8UQbSC2ekpp+9u4+RMmtGxpIhzc5CFagG5DPmVdy/e96DeuoSck8BLKUIuxb6lW0hpfRG3fiDU9ibcmgTvMB8/hX4YqLwMNi7V+l6VtdvFLBq9q7zkeJnEPuGB1nOvGbRW+iIRYL9xAced8jj2CMrh05DLdH6mZCHupmx1QJsO8IwBU6ji6ZfyWIapvhS00bUStcEhWP4aD+XwxbLgj3eW+204H/mvqqrpt4QgY="
       
