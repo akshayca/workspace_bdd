@@ -1,12 +1,13 @@
 language: java
 install: true
-
 addons:
   sonarcloud:
-    organization: "paru"
+    organization: paru
     token:
-        secure: fd81d448e19a2e713ec9d1af3f2cac49b696e630
-
+      secure: fd81d448e19a2e713ec9d1af3f2cac49b696e630
 script:
-  - mvn install
-  - sonar-scanner
+- mvn install
+- sonar-scanner
+env:
+  global:
+    secure: DQKQk5FuGTE3JWMq98wymeiD53igwsiPYy8MoY2YI/vSKIRg+tSBUjIWAUlr8lFLXuv4/pSPEC7bN2ruT+UVIwAS9PahR7QCtbN13wLyhLGy8tOAtzHID0FF9ZTHJdr0GGKuERyLnCjC4pQ/3HRlEEKgYdYJdWKpkIadRKt9rwMleWnxUoDH1UvVym/bd4lNppJCTJJjTZDZVL1WftQsa9UWKh+/bp/5ASzxAuCuGM3V1i/3whNOKssrgH+gAj27WjtnL+CFJiIudsWYz2NJVk5m0nGBRXqBwamDlcm5UWydzEP0wQJyQcLZk/m+ZvG4sbKJi8pG51+82kEA8LCF5YHld1a2bxkwh7MX0udv66ikndlfhN+sdZSCimpe6hVDU93Ahy1Z/cH2ZNTB8XNaI4Y58gtsFuvRiIsMbANxg88oO2S1DoGRWOKYeH78+daVcDyqe4V0FVSrjW04+PzrZQMdDLHfqucDGR/Ihu0MwOCpgiOmap3MY9NANV9RjzJSqw1qyv786zjdxlM5dmnukBCoYcOMQ0cmDlckduhZLDiNZJfdKaUHdWTnQ6DVzfRVRx4Nq42V9ln7iShVtwG0A1hHZj0rc+Q2sj9cJ8zSIeu1P/NWi94/eM2FWMwtHJuCZYdNRylX2De4mS7PbSZMGchN/rhRW9LfWkLReQzHbx0=
