@@ -1,4 +1,4 @@
-language: java
+jdk: openjdk10
 
 dist: trusty
 
@@ -9,6 +9,12 @@ addons:
       secure: "On+wJ8dwRxvOdTsapcNUziu0N81Nu4ZzN77kkbk0u1dzylfgJg0eLzR5PQnz98AoR0n5UTXtQxv2y38TkNulaM/hF4gdS5z6wlsr5P5YhZNFjJFYRQ04/rouxsa7U0g/8u3sX9rsQJ3zIwUJtMsVEvB91WycL5+x23Gum38PerC699jHsRE52Q6gqF+mtKySoQ8MHuOT+EAt+oY0MmGa0TzArOh7PbdXzpTqKQYI6z0tY5Mztuts2mf62iz5e454lh96+eqkWJw1qJjVQOSQhN9CT9NjbR4IzCr1RKk5gYfu/lcog1tZR86sD4Qq7s2A6DrwNgWOTVzmmBWvz1+fgs2dz+MY8QpbbT1tOecWrawF5+Lsy9YbWDdEc/K+WBu8lyRyI3bnpLsIQLIZk8vMs7MEE0hfcEiBBVlZfTNZ20biyv9Q0/T2U0AtoW1KLe3/LPVb9IxE7O/IlKTlhzv/BepBxzpKWq1Xo6m7sAyw67YKIO4w8u0Yj1AVctOONOtCWQytQYQ8AKqhjtmD11xFcU6pStQwHf3F5K5P3CYEBoavAUr04nuFdhG8d4VrJMieeND11Bd2X5q6erwcVLjwB0ghwCc/bUjPzR/2HUIU92PJdiveX5Tx68KbSi14JSBWwYPp7KTvC36aOo2UH/QfihDR8r33yewX+wDZHjyyi7o=" # encrypted value of your token
 
 script:
+  - jdk_switcher use openjdk10
+  - # do stuff with OpenJDK 10
+  - wget https://github.com/sormuras/bach/raw/master/install-jdk.sh
+  - chmod +x $TRAVIS_BUILD_DIR/install-jdk.sh
+  - export JAVA_HOME=$HOME/openjdk11
+  - $TRAVIS_BUILD_DIR/install-jdk.sh -F 11 --target $JAVA_HOME
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
   - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
 
