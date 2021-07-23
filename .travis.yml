@@ -4,7 +4,7 @@ dist: trusty
 
 addons:
   sonarcloud:
-    organization: "paru"
+    organization: "Akshay C A"
     token:
       secure: ${SONAR_TOKEN}
       
