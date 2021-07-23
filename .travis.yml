@@ -4,9 +4,9 @@ dist: trusty
 
 addons:
   sonarcloud:
-    organization: "Akshay C A"
+    organization: "akshayca"
     token:
-      secure: ${SONAR_TOKEN}
+      secure: "RC2KUoaikG6pqiPyav+A9w7XwVrq8fRIlQG7/qQybsOhraJU5L0l5vsvLWfm9MT7xXCu3pYqGLaNgj5OB6Ozh+mnBAnx7kEx3In4RjAn/uV0RiPwD2AIOhXc4iL75bYpB53p1p3F7VID1g8jtoYSuIGCtC3VIgr5hO/rQGcXO9Rw1VUFImfgcToODcZNSJIKp13F5ENfNWj6LiGJht9P25hd7vC+TWO9ciFkwDelFeT3jXzYVzD3DNoJyqrpEhXPExkzVJT2m6Ddrpq5blPw07HmmZ/q8qSdTtpAmuzY1oeRc8PsIOHpfn8XcxPLWGLMJRZO5uln2eqNdmF1VjwIXwJUysLS3JdVp5ng3vApJF25FV3NOq0cwxubuPIeJkUafVr0GaLQ0jLfVGEeGs4u9MoKJ7vQyz0GA7ub9VSQb9hLsElDSSxIiKEBUorVnhkIMG1NfaMW5GB6fgPy0jMJWIaTfRmsufwa4WuSJ3ms8QRE1J7o1hTey/bAZJWy1+N9gHDqyrAHsHkejxSYI21x0iCS+KWtR7Cscqr6+ZighIAek7lIMqTXth/I5rtkHvUxNy2kGKaCbZPkSLs7EtRrDvaf3eIN/j2Ld3WBeuHVEKVfJ/4E1xnCIIa/HRNx6c19CmXswQURGeUuh0FbQdpdCu4ztbiCXFiVKBMxqNeawjw="
       
 
 script:
