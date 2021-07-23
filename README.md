@@ -1,4 +1,6 @@
 # workspace_bdd
 Unit testing framework using BDD
-added travis ci.
-.sonarqube io
+
+[![Build Status](https://travis-ci.com/akshayca/workspace_bdd.svg?branch=master)](https://travis-ci.com/akshayca/workspace_bdd)
+
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=workspace_bdd%3Aworkspace_bdd&metric=alert_status)](https://sonarcloud.io/dashboard?id=workspace_bdd%3Aworkspace_bdd) [![Lines](https://sonarcloud.io/api/project_badges/measure?project=workspace_bdd%3Aworkspace_bdd&metric=ncloc)](https://sonarcloud.io/dashboard?id=workspace_bdd%3Aworkspace_bdd) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=workspace_bdd%3Aworkspace_bdd&metric=coverage)](https://sonarcloud.io/dashboard?id=workspace_bdd%3Aworkspace_bdd) [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=workspace_bdd%3Aworkspace_bdd&metric=code_smells)](https://sonarcloud.io/dashboard?id=workspace_bdd%3Aworkspace_bdd) [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=workspace_bdd%3Aworkspace_bdd&metric=bugs)](https://sonarcloud.io/dashboard?id=workspace_bdd%3Aworkspace_bdd) [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=workspace_bdd%3Aworkspace_bdd&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=workspace_bdd%3Aworkspace_bdd) [![Technical debt](https://sonarcloud.io/api/project_badges/measure?project=workspace_bdd%3Aworkspace_bdd&metric=sqale_index)](https://sonarcloud.io/dashboard?id=workspace_bdd%3Aworkspace_bdd)
