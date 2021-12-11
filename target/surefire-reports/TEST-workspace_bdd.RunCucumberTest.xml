@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="workspace_bdd.RunCucumberTest" time="0.155" errors="0" skipped="0">
+<testsuite tests="4" failures="1" name="workspace_bdd.RunCucumberTest" time="0.358" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="16.0.1+9"/>
     <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-16.0.1.9-hotspot\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\aksha\cucumber\workspace_bdd"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\aksha\Documents\code\BDDFramework\workspace_bdd"/>
     <property name="java.vm.vendor" value="AdoptOpenJDK"/>
     <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\aksha\cucumber\workspace_bdd"/>
+    <property name="user.dir" value="C:\Users\aksha\Documents\code\BDDFramework\workspace_bdd"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="16.0.1+9"/>
     <property name="os.arch" value="amd64"/>
@@ -27,7 +27,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\apache-maven-3.8.1\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-16.0.1.9-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\AdoptOpenJDK\jdk-16.0.1.9-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\apache-maven-3.8.1\bin;C:\Ruby30-x64\bin;C:\Users\aksha\AppData\Local\Microsoft\WindowsApps;;C:\Users\aksha\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-16.0.1.9-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python39\Scripts\;C:\Python39\;C:\Program Files\AdoptOpenJDK\jdk-16.0.1.9-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\apache-maven-3.8.1\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Users\aksha\AppData\Roaming\Python\Python39\Scripts\;C:\Users\aksha\Documents\Software\allure-2.15.0\bin;C:\Ruby30-x64\bin;C:\Users\aksha\AppData\Local\Microsoft\WindowsApps;;C:\Users\aksha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\aksha\AppData\Roaming\npm;C:\Program Files\Azure Data Studio\bin;C:\Program Files\JetBrains\PyCharm 2021.2.2\bin;;."/>
     <property name="maven.conf" value="C:\apache-maven-3.8.1\bin\../conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="60.0"/>
@@ -43,7 +43,7 @@
     <property name="java.class.path" value="C:\apache-maven-3.8.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="16"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-16.0.1.9-hotspot"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -61,7 +61,29 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Strings" name="Find the length of the longest substring without repeating characters #1" time="0.141"/>
-  <testcase classname="Strings" name="Find the length of the longest substring without repeating characters #2" time="0.009"/>
-  <testcase classname="Strings" name="Find the length of the longest substring without repeating characters #3" time="0.005"/>
+  <testcase classname="Matrix" name="A matrix is Toeplitz if every diagonal from top-left to bottom-right has the same elements." time="0.316">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at workspace_bdd.step_definitions.Matrix_step_definitions.return_true_if_the_matrix_is_toeplitz_otherwise_return_false(Matrix_step_definitions.java:29)
+	at ✽.return true if the matrix is Toeplitz Otherwise return false(classpath:workspace_bdd/features/Matrix.feature:8)
+</failure>
+    <system-out>
+Scenario: A matrix is Toeplitz if every diagonal from top-left to bottom-right has the same elements. &amp;#27;[90m# workspace_bdd/features/Matrix.feature:4&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32man m x n matrix&amp;#27;[0m                                                                               &amp;#27;[90m# workspace_bdd.step_definitions.Matrix_step_definitions.an_m_x_n_matrix()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mthe matrix is Toeplitz&amp;#27;[0m                                                                         &amp;#27;[90m# workspace_bdd.step_definitions.Matrix_step_definitions.the_matrix_is_toeplitz()&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mreturn true if the matrix is Toeplitz Otherwise return false&amp;#27;[0m                                   &amp;#27;[90m# workspace_bdd.step_definitions.Matrix_step_definitions.return_true_if_the_matrix_is_toeplitz_otherwise_return_false()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at workspace_bdd.step_definitions.Matrix_step_definitions.return_true_if_the_matrix_is_toeplitz_otherwise_return_false(Matrix_step_definitions.java:29)
+	at âœ½.return true if the matrix is Toeplitz Otherwise return false(classpath:workspace_bdd/features/Matrix.feature:8)
+&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Strings" name="Find the length of the longest substring without repeating characters #1" time="0.028"/>
+  <testcase classname="Strings" name="Find the length of the longest substring without repeating characters #2" time="0.007"/>
+  <testcase classname="Strings" name="Find the length of the longest substring without repeating characters #3" time="0.007"/>
 </testsuite>

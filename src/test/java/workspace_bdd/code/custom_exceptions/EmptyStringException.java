@@ -1,4 +1,4 @@
-package workspace_bdd.code.strings.custom_exceptions;
+package workspace_bdd.code.custom_exceptions;
 
 public class EmptyStringException extends Exception {
     

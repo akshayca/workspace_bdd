@@ -1,8 +1,8 @@
-package workspace_bdd.code.strings;
+package workspace_bdd.code.Strings;
 
 import java.util.HashSet;
 
-import workspace_bdd.code.strings.custom_exceptions.EmptyStringException;
+import workspace_bdd.code.custom_exceptions.EmptyStringException;
 
 public class LongestSubstring {
      //Given a string str, find the length of the longest substring without repeating characters.

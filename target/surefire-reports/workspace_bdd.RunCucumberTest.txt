@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: workspace_bdd.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.563 sec
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.145 sec <<< FAILURE!
+A matrix is Toeplitz if every diagonal from top-left to bottom-right has the same elements.(Matrix)  Time elapsed: 0.316 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at workspace_bdd.step_definitions.Matrix_step_definitions.return_true_if_the_matrix_is_toeplitz_otherwise_return_false(Matrix_step_definitions.java:29)
+	at ?.return true if the matrix is Toeplitz Otherwise return false(classpath:workspace_bdd/features/Matrix.feature:8)
+

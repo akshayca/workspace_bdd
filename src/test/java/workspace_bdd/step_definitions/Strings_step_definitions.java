@@ -3,8 +3,8 @@ package workspace_bdd.step_definitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import workspace_bdd.code.strings.LongestSubstring;
-import workspace_bdd.code.strings.custom_exceptions.EmptyStringException;
+import workspace_bdd.code.Strings.LongestSubstring;
+import workspace_bdd.code.custom_exceptions.EmptyStringException;
 
 import static org.junit.Assert.*;
 
